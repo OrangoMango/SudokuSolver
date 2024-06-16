@@ -107,8 +107,8 @@ public class SudokuSolver{
 		}
 
 		// Not in the same subgrid
-		int sx = r / GRID_SIZE;
-		int sy = c / GRID_SIZE;
+		int sx = r / SUBGRID_SIZE;
+		int sy = c / SUBGRID_SIZE;
 		for (int i = sx*SUBGRID_SIZE; i < sx*SUBGRID_SIZE+SUBGRID_SIZE; i++){
 			for (int j = sy*SUBGRID_SIZE; j < sy*SUBGRID_SIZE+SUBGRID_SIZE; j++){
 				if (grid[i][j] == k){
