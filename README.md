@@ -3,10 +3,10 @@ Sudoku solver and generator
 
 # How to use
 * Compile and execute the code with `javac SudokuSolver.java` and `java SudokuSolver`
-* Choose the size of the sudoku:
-`GRID_SIZE`: the amount of subgrids in a row/column
-`SUBGRID_SIZE`: the amount of cells in a subgrid's row/column
-* Choose to manually fill the grid or not
+* Choose the size of the sudoku:  
+`GRID_SIZE`: the amount of subgrids in a row/column  
+`SUBGRID_SIZE`: the amount of cells in a subgrid's row/column  
+* Choose to manually fill the grid or not. (Use `0` for empty cells)
 
 # Example
 ## Manually fill a 3x3 grid and solve it
